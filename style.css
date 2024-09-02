@@ -1,12 +1,39 @@
-img{
-    width: 150px;
-    height: 150px;
-    float: right;
+img {
 }
 
-.container{
+.container {
+    background-color: white;
 }
 
-.contact{}
+.personalInfo {
+    background-color: rgb(14 165 233);
+    font-family: Helvetica , sans-seri;
+    color: white;
+    padding-left: 5px;
+    padding-down: 5px;
+}
 
-.hobbies{}
+.professionalInfo {
+    font-family: Helvetica , sans-seri;
+}
+
+.contact {
+    margin: auto;
+    margin-top: 20%;
+    width: 30%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    font-family: Helvetica , sans-seri;
+}
+
+.hobbies {
+    margin: auto;
+    margin-top: 15%;
+   /* width: 20%;*/
+    border: 1px solid black;
+    /*padding: 10px;*/
+    font-family: Helvetica , sans-seri;
+    text-align: center;
+    font-size: 2rem;
+}
+

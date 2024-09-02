@@ -3,73 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-    <div class="myPersonalInfo">
-        <img src="./images/Resume_Photo.png" alt="My_Photo">
+    <div class="personalInfo">
+        <img src="./images/Resume_Photo.png" alt="My_Photo" style="width: 150px; height: 150px; float: right; padding: 5px;">
         <h1>Vikas Kumar Pal</h1>
         <h3>Full Stack Developer</h3>
-        <a href="./contact.html">Contact Details</a><br>
-        <a href="./hobbies.html">Hobbies</a>
+        <h4><a href="./contact.html" id="contact" class="lnk contact" style="color:white">Contact Details</a></h4>
+        <h4><a href="./hobbies.html" id="hobbies" class="lnk hobbies" style="color:white">Hobbies</a></h4>
     </div>
-    <h1>Summary: </h1>
-    <p>Passionate and skilled Computer Science graduate with hands-on experience in software development, primarily through a role at Cognizant Technology Solutions Pvt. Ltd. as a Programmer Analyst Trainee.
-        Proficient in Java, Python, JavaScript, HTML, CSS, and MySQL, with practical experience in developing projects using Spring Boot and Django frameworks.
-        Strong foundation in data structures, algorithms, and database management systems.
-        After taking a career break to prepare for the UPSC Civil Services,
-        I am now eager to re-enter the IT sector, ready to leverage my technical expertise and problem-solving skills in a dynamic and challenging environment.
-    </p>
+    <div class="professionalInfo">
+        <h1>Summary: </h1>
+        <p>Passionate and skilled Computer Science graduate with hands-on experience in software development, primarily
+            through a role at Cognizant Technology Solutions Pvt. Ltd. as a Programmer Analyst Trainee.
+            Proficient in Java, Python, JavaScript, HTML, CSS, and MySQL, with practical experience in developing projects
+            using Spring Boot and Django frameworks.
+            Strong foundation in data structures, algorithms, and database management systems.
+            After taking a career break to prepare for the UPSC Civil Services,
+            I am now eager to re-enter the IT sector, ready to leverage my technical expertise and problem-solving skills in
+            a dynamic and challenging environment.
+        </p>
 
-    <h2>Education (list degrees, schools, and dates)</h2>
-    <ul>
-        <li>2020: Bachelor of Engineering in CS with 8.75 CGPA from LNCTS Bhopal</li>
-        <li>2016: 12th in Mathamatics with 76.90% from Board of Secondary Education of Madhya Pradesh Bhopal</li>
-        <li>2015: 12th in Mathamatics with 60% from Board of Secondary Education of Rajasthan</li>
-        <li>2013: Metric with 86.10% from Board of Secondary Education of Madhya Pradesh Bhopal</li>
-    </ul>
+        <h2>Education (list degrees, schools, and dates)</h2>
+        <ul>
+            <li>2020: Bachelor of Engineering in CS with 8.75 CGPA from LNCTS Bhopal</li>
+            <li>2016: 12th in Mathamatics with 76.90% from Board of Secondary Education of Madhya Pradesh Bhopal</li>
+            <li>2015: 12th in Mathamatics with 60% from Board of Secondary Education of Rajasthan</li>
+            <li>2013: Metric with 86.10% from Board of Secondary Education of Madhya Pradesh Bhopal</li>
+        </ul>
 
-    <h2>Work experience (list job titles, employers, dates, and responsibilities)</h2>
-    <ul>
-        <li>Programmer Analyst Trainee:
-            <ul>
-                <li>Oct 2020 - Jan 2021</li>
-                <li>Cognizant Technologies Solutions Pvt. Ltd.</li>
-            </ul>
-        </li>
-        <li>Intern:
-            <ul>Dec 2019 - Dec 2020</ul>
-            <ul>Cognizant Technologies Solutions Pvt. Ltd.</ul>
-        </li>
-    </ul>
-    <h2>Skills (list relevant skills or areas of expertise)</h2>
-    <ul>
-        <li>Programming Languages:
-            <ol>
-                <li>Python</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SQL/MySql</li>
-                <li>Django</li>
-                <li>Angular</li>
-                <li>Azure</li>
-            </ol>
-        </li>
-    </ul>
-    <h2>Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments)</h2>
-    <ul>
-        <li>NPTEL Certification:
-            <ol>Database Management System</ol>
-            <ol>Problem Solving Through C</ol>
-        </li>
-        <!--<li>Achievements and Awards
-            <ol></ol>
-        </li>-->
-    </ul>
+        <h2>Work experience (list job titles, employers, dates, and responsibilities)</h2>
+        <ul>
+            <li>Programmer Analyst Trainee:
+                <ul>
+                    <li>Oct 2020 - Jan 2021</li>
+                    <li>Cognizant Technologies Solutions Pvt. Ltd.</li>
+                </ul>
+            </li>
+            <li>Intern:
+                <ul>Dec 2019 - Dec 2020</ul>
+                <ul>Cognizant Technologies Solutions Pvt. Ltd.</ul>
+            </li>
+        </ul>
+        <h2>Skills (list relevant skills or areas of expertise)</h2>
+        <ul>
+            <li>Programming Languages:
+                <ol>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL/MySql</li>
+                    <li>Django</li>
+                    <li>Angular</li>
+                    <li>Azure</li>
+                </ol>
+            </li>
+        </ul>
+        <h2>Awards, certifications, or other achievements (list any relevant awards, certifications, or other
+            accomplishments)</h2>
+        <ul>
+            <li><a href="certificate.html">NPTEL Certification:</a>
+                <ol>Database Management System</ol>
+                <ol>Problem Solving Through C</ol>
+            </li>
+            <!--<li>Achievements and Awards
+                <ol></ol>
+            </li>-->
+        </ul>
+    </div>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
